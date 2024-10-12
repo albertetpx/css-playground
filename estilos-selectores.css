@@ -1,0 +1,151 @@
+/* SELECTOR UNIVERSAL **************************/
+/* *{
+    font-style: italic;
+} */
+
+/* SELECTOR DE ETIQUETA ************************/
+h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* footer{
+    background-color: red;
+} */
+
+/* SELECTOR DE CLASE ***************************/
+.intro {
+    font-weight: 300;
+}
+
+/* SELECTOR DE ETIQUETA Y CLASE ****************/
+a.especial {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* SELECTOR DE ID ******************************/
+#resaltado {
+    font-weight: 700;
+    color: #2980b9;
+}
+
+/* SELECTOR DE ATRIBUTO ************************/
+p[data-info] {
+    background-color: #ffeb3b;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* SELECTOR DE ATRIBUTO Y VALOR *****************/
+p[data-info="dato-imprtante"] {
+    background-color: #ff3bce;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* SELECTOR DE GRUPO ****************************/
+h2,
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* SELECTOR DE PSEUDOCLASES **********************/
+
+/* Pseudoclases de enlace */
+/* regla LVHA  */
+a:hover {
+    color: gold;
+}
+
+/* a:visited{
+    color: aqua;
+} */
+
+/* Pseudoclases de foco */
+
+button:focus{
+    border: 5px solid white;
+}
+
+/* Pseudoclases de formulario */
+/* TBD */
+
+/* Pseudoclases de índice y orden */
+
+/* Pseudoclases funcionales */
+/* empty, has, is, not */
+
+/* SELECTOR DE PSEUDOELEMENTOS *******************/
+p::first-letter {
+    font-size: 2em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* li::marker{
+    color:red;
+} */
+
+/* footer::before{
+    content: "This is a footer";
+    font-style: oblique;
+} */
+
+/* SELECTORES COMPLEJOS *************************/
+
+/* Selector de descendientes */
+section.contenido p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Selector de descendientes directos (hijos)*/
+ul.lista > li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* ul.lista li:first-child {
+    font-style: italic;
+    color: #3498db;
+} */
+
+/* ul.lista li:last-child {
+    color: #27ae60;
+    font-weight: 600;
+} */
+
+/* Selector de hermano siguiente */
+/* #item1 + li{
+    background-color: #ff3bce;
+} */
+
+/* Selector de hermanos subsiguientes */
+/* #item1 ~ li{
+    background-color: #ff3bce;
+} */
+
+
+/* ADELANTO: MEDIA QUERIES */
+/* Media Queries para pantallas más pequeñas */
+/* @media (max-width: 768px) {
+    section.contenido {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-item {
+        font-size: 16px;
+    }
+} */

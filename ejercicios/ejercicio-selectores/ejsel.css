@@ -1,0 +1,30 @@
+/* EJERCICIO DE SELECTORES CSS */
+/* Ejercicio 1: Selecciona el primer párrafo y cámbiale el color a rojo. */
+/* Ejercicio 2: Selecciona todos los párrafos de la página y añade un borde negro. */
+/* Ejercicio 3: Haz que el segundo párrafo sea de color azul usando un selector específico. */
+/* Ejercicio 4: Cambia el fondo de las "cajas misteriosas" a un color diferente usando un selector de clase. */
+/* Ejercicio 5: Aplica un estilo solo al último li de la lista de colores y ponle un fondo gris. */
+/* Ejercicio 6: Cambia el fondo del botón a verde cuando pases el ratón por encima (hover). */
+/* Ejercicio 7: Muestra el div oculto (con la clase "oculto"). */
+/* Ejercicio 8: Selecciona el div con la clase especial y dale un fondo amarillo. */
+/* Ejercicio 9: Haz que los elementos li que contengan la palabra "rojo" tengan color rojo. */
+/* Ejercicio 10: Selecciona el segundo div con la clase caja y haz que tenga bordes redondeados y un color de fondo distinto al primero. */
+/* Ejercicio 11: Cambia el estilo del botón cuando se haya hecho clic en él (usa la pseudo-clase :active). */
+/* Ejercicio 12: Selecciona el primer li de la lista de colores y cambia su color de fondo a rosa. */
+/* Ejercicio 13: Selecciona todos los li impares en la lista y aplica un color de fondo alterno (usa nth-child). */
+/* Ejercicio 14: Haz que todos los elementos div dentro del contenedor tengan un margen de 20px, pero solo si están directamente dentro del div con id contenedor (usa un combinador hijo). */
+/* Ejercicio 15: Usa un selector de atributo para cambiar el estilo del botón que tenga el atributo id="boton-clic", haciéndolo más grande y de color azul. */
+/* Ejercicio 16: Añade un borde verde a cualquier párrafo que tenga la clase parrafo-primero, pero solo si también tiene un atributo class que contiene la palabra "primero" (usa un selector de atributo parcial). */
+/* Ejercicio 17: Usa una pseudo-clase para seleccionar todos los div que sean los primeros hijos de su padre y dales un borde doble. */
+/* Ejercicio 18: Añade una flecha (→) antes de cada li en la lista de colores usando un pseudo-elemento ::before. */
+/* Ejercicio 19: Selecciona el div con la clase especial y utiliza la propiedad :hover para cambiar su color de texto a negro solo cuando el ratón esté encima y agregarle una sombra en ese momento. */
+/* Ejercicio 20: Selecciona el segundo párrafo solo si es precedido inmediatamente por un div con clase caja, y cámbiale el color de fondo. */
+/* Ejercicio 21: Usa un selector :nth-child() combinado con una fórmula matemática para seleccionar solo los li en posiciones que sean múltiplos de 3, y cámbiales el color de fondo. */
+/* Ejercicio 22: Selecciona todos los elementos que contienen un atributo data-tipo con valor importante y aplica un borde rojo. */
+/* Ejercicio 23: Selecciona todos los elementos p que no tengan una clase asignada y cambia su color de texto a gris. */
+/* Ejercicio 24: Utiliza una combinación de pseudo-clases y pseudo-elementos para añadir un contenido ("¡Nuevo!") al final de cada div con clase caja, pero solo si el ratón está encima. */
+/* Ejercicio 25: Selecciona todos los elementos que sean los últimos hijos de su tipo dentro de cualquier div y aplícales un fondo degradado vertical. */
+/* Ejercicio 26: Usa una combinación de selectores para seleccionar el p que esté directamente dentro del div con clase especial, y cambia su tamaño de fuente. */
+/* Ejercicio 27: Crea un efecto de resalte animado usando solo CSS que aplique un cambio de color progresivo al pasar el ratón sobre los li de la lista de colores, empezando con un color y terminando con otro. */
+/* Ejercicio 28: Selecciona el primer y último li en la lista y aplica diferentes animaciones a cada uno cuando el ratón se coloque sobre ellos. */
+/* Ejercicio 29: Utiliza un selector avanzado para aplicar una regla de estilo a cualquier li cuyo contenido contenga la palabra "verde" sin usar clase. */

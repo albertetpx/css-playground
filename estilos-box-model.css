@@ -1,0 +1,77 @@
+.coloreado {
+    background-color: red;
+}
+
+.con-tamano {
+    width: 420px;
+    height: 80px;
+}
+
+.con-tamano-implicito {
+    width: min-content;
+    height: min-content;
+}
+
+.con-borde {
+    border: 20px black solid;
+    font-size: 0.8em;
+}
+
+.con-padding {
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+.extra-margen {
+    margin: 20px;
+    font-size: 0.8em;
+}
+
+.contenedor {
+    background-color: blue;
+    width: min-content;
+    height: min-content;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.con-tamano-s {
+    width: 100px;
+    height: 80px;
+}
+
+.con-outline {
+    outline: 10px solid green;
+}
+
+.con-shadow {
+    box-shadow: 15px 15px 12px yellow;
+}
+
+#ilustracion{
+    width: min-content;
+    padding: 20px;
+    border: 4px dashed black;
+    background-color: aqua;
+    position: relative;
+}
+
+#ilustracion img{
+    width: 500px;
+}
+
+.tooltip{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top: 50px;
+    left: 100px;
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+    font-size: 1em;
+}
+
+#ilustracion:hover .tooltip{
+    display: block;
+}
