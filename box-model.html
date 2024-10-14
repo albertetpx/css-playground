@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Playground</title>
+    <link rel="stylesheet" href="estilos-generales.css">
+    <link rel="stylesheet" href="estilos-box-model.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>CSS Playground</h1>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a href="./box-model.html">El modelo de caja</a></li>
+                <li class="nav-item"><a href="./selectores.html">Selectores CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenido">
+        <h2>El modelo de caja</h2>
+        <p>Esto es un simple párrafo</p>
+
+        <p class="coloreado">Esto es un simple párrafo</p>
+
+        <p class="coloreado con-tamano">Esto es un simple párrafo</p>
+
+        <p class="coloreado con-tamano">Esto es un simple párrafo. NO OBSTANTE: TODO ELEMENTO HTML ES, DESDE EL PUNTO DE
+            VISTA DE CSS, UNA CAJA</p>
+
+        <p class="coloreado con-tamano-implicito">Esto es un simple párrafo. NO OBSTANTE: TODO ELEMENTO HTML ES, DESDE
+            EL
+            PUNTO DE VISTA DE CSS, UNA CAJA</p>
+
+        <p class="coloreado con-tamano con-borde">Esto una caja con borde. El borde ESTÁ INCLUIDO EN EL TAMAÑO DE LA
+            CAJA
+        </p>
+
+        <p class="coloreado con-tamano con-padding">Esto una caja con padding (acolchado). El padding ESTÁ INCLUIDO EN
+            EL
+            TAMAÑO DE LA CAJA</p>
+
+        <p class="coloreado con-tamano extra-margen">Esto una caja con margen (acolchado). El margen NO ESTÁ INCLUIDO EN
+            EL
+            TAMAÑO DE LA CAJA</p>
+
+        <div class="contenedor">
+            <div class="coloreado con-tamano-s con-borde con-padding extra-margen">Modelo de caja completo</div>
+        </div>
+
+        <div class="contenedor">
+            <div class="coloreado con-tamano-s con-borde con-padding extra-margen con-outline">El outline se pinta sobre
+                el
+                margen</div>
+        </div>
+
+        <div class="contenedor">
+            <div class="coloreado con-tamano-s con-borde con-padding extra-margen con-outline con-shadow">El box-shadow
+                se
+                pinta sobre el margen</div>
+        </div>
+
+        <div id="ilustracion">
+            <img src="./recursos/img/analogia_border_box.jpg" alt="Analogía del modelo de caja">
+            <div class="tooltip">Nótese que el padding se pinta del color del fondo <em>(background-color)</em></div>
+        </div>
+
+        <div class="contenedor">
+            <div class="coloreado con-tamano-s con-borde con-padding extra-margen">Caja con box-sizing: border-box </div>
+
+            <div class="coloreado con-tamano-s con-borde con-padding extra-margen bo content-box">Caja con box-sizing: content-box</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Pie de página.</p>
+    </footer>
+</body>
+
+</html>

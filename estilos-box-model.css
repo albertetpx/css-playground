@@ -1,4 +1,4 @@
-.coloreado {
+    .coloreado {
     background-color: red;
 }
 
@@ -33,11 +33,12 @@
     height: min-content;
     padding-top: 1px;
     padding-bottom: 1px;
+    margin-bottom: 10px;
 }
 
 .con-tamano-s {
-    width: 100px;
-    height: 80px;
+    width: 200px;
+    height: 160px;
 }
 
 .con-outline {
@@ -54,6 +55,7 @@
     border: 4px dashed black;
     background-color: aqua;
     position: relative;
+    margin-bottom: 10px;
 }
 
 #ilustracion img{
@@ -74,4 +76,14 @@
 
 #ilustracion:hover .tooltip{
     display: block;
+}
+
+.content-box{
+    box-sizing: content-box;
+    content: ;
+}
+
+.content-box::after{
+    white-space: pre;
+    content:"\A(El borde y el padding no se tienen en \A cuenta en el tamaño de la caja";
 }

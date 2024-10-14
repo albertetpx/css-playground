@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demostración de Selectores CSS</title>
     <link rel="stylesheet" href="estilos-generales.css">
-    <link rel="stylesheet" href="estilos-selectores.css">
+    <!-- <link rel="stylesheet" href="estilos-selectores.css"> -->
 </head>
+
 <body>
     <header id="main-header">
         <h1>Demostración de Selectores CSS</h1>
         <nav>
             <ul>
-                <li class="nav-item">Inicio</li>
-                <li class="nav-item">Acerca de</li>
-                <li class="nav-item">Contacto</li>
+                <li class="nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a href="./box-model.html">El modelo de caja</a></li>
+                <li class="nav-item"><a href="./selectores.html">Selectores CSS</a></li>
+                <li class="nav-item"><a href="#" disabled>Posicionamiento</a></li>
             </ul>
         </nav>
     </header>
@@ -29,13 +32,26 @@
             <li>Elemento 2</li>
             <li>Elemento 3</li>
         </ul>
-        <a href="https://www.google.es" target="_blank" class="enlace especial">Enlace Especial</a>
-        <a href="https://www.acb.es" target="_blank" href="#" class="enlace">Enlace Normal</a>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes" target="_blank"
+            class="enlace especial">Pseudoclases CSS</a>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements" target="_blank" href="#"
+            class="enlace">Pseudoelementos CSS</a>
+        <br><br>
+        <div class="cajas">
+            <div class="caja">CAJA 1</div>
+            <article class="caja">CAJA 2</article>
+            <article class="caja">CAJA 3</article>
+            <div class="caja">CAJA 4</div>
+            <span class="caja">CAJA 5</span>
+            <div class="caja">CAJA 6</div>
+        </div>
+
     </section>
 
     <footer>
         <p>Pie de página.</p>
-        <button>BOTÓN</button>
+        <button disabled>BOTÓN</button>
     </footer>
 </body>
+
 </html>

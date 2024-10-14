@@ -4,93 +4,151 @@
 } */
 
 /* SELECTOR DE ETIQUETA ************************/
-h2 {
+/* h2 {
     font-size: 28px;
     color: #444;
     margin-bottom: 15px;
-}
+} */
 
 /* footer{
     background-color: red;
 } */
 
 /* SELECTOR DE CLASE ***************************/
-.intro {
+/* .intro {
     font-weight: 300;
-}
+} */
 
 /* SELECTOR DE ETIQUETA Y CLASE ****************/
-a.especial {
+/* a.especial {
     font-weight: bold;
     color: #e74c3c;
-}
+} */
 
 /* SELECTOR DE ID ******************************/
-#resaltado {
+/* #resaltado {
     font-weight: 700;
     color: #2980b9;
-}
+} */
 
 /* SELECTOR DE ATRIBUTO ************************/
-p[data-info] {
+/* p[data-info] {
     background-color: #ffeb3b;
     font-weight: 500;
     padding: 10px;
     border-radius: 4px;
-}
+} */
 
 /* SELECTOR DE ATRIBUTO Y VALOR *****************/
-p[data-info="dato-imprtante"] {
+/* p[data-info="dato-imprtante"] {
     background-color: #ff3bce;
     font-weight: 500;
     padding: 10px;
     border-radius: 4px;
-}
+} */
+/* 
+p[data-info*="dato"] {
+    background-color: #ff3bce;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+} */
 
 /* SELECTOR DE GRUPO ****************************/
-h2,
+/* h2,
 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} */
 
 
 /* SELECTOR DE PSEUDOCLASES **********************/
 
 /* Pseudoclases de enlace */
 /* regla LVHA  */
-a:hover {
-    color: gold;
-}
 
 /* a:visited{
     color: aqua;
 } */
 
+/* a:hover {
+    color: gold;
+} */
+
+/* Pseudoclases de estado */
+
+/* a:active{
+    font-size: 1.6em;
+} */
+
+/* button:disabled{
+    opacity: 0.5;
+} */
+
+/* enabled */
+
 /* Pseudoclases de foco */
 
-button:focus{
+/* button:focus{
     border: 5px solid white;
-}
+} */
 
 /* Pseudoclases de formulario */
 /* TBD */
+/* checked, default, read-only, required, optional, valid, out-of-range*/
 
 /* Pseudoclases de índice y orden */
+/* .caja:first-child{
+    color: greenyellow;
+} */
+
+/* .caja:last-child{
+    color:greenyellow;
+} */
+
+/* .caja:first-of-type{
+    color:greenyellow;
+} */
+
+/* .caja:last-of-type{
+    color:greenyellow;
+} */
+
+/* .caja:only-of-type{
+    color:greenyellow;
+} */
+
+/* .caja:nth-child(3){
+    color:greenyellow;
+} */
+
+/* .caja:nth-child(2n){
+    color:greenyellow;
+} */
+
+/* .caja:nth-child(2n+1){
+    color:greenyellow;
+} */
+
+/* .caja:nth-of-type(2){
+    color:greenyellow;
+} */
 
 /* Pseudoclases funcionales */
-/* empty, has, is, not */
+/* has, is, where, not, empty */
+/* TBD */
 
 /* SELECTOR DE PSEUDOELEMENTOS *******************/
-p::first-letter {
+/* p::first-letter {
     font-size: 2em;
     color: #e74c3c;
     font-weight: bold;
-}
+} */
 
 /* li::marker{
     color:red;
 } */
 
+/* Selectores ::before y ::after */
 /* footer::before{
     content: "This is a footer";
     font-style: oblique;
@@ -99,18 +157,18 @@ p::first-letter {
 /* SELECTORES COMPLEJOS *************************/
 
 /* Selector de descendientes */
-section.contenido p {
+/* section.contenido p {
     font-size: 18px;
     margin-bottom: 20px;
     color: #555;
-}
+} */
 
 /* Selector de descendientes directos (hijos)*/
-ul.lista > li {
+/* ul.lista > li {
     font-size: 18px;
     margin-bottom: 10px;
     color: #555;
-}
+} */
 
 /* ul.lista li:first-child {
     font-style: italic;
@@ -149,3 +207,9 @@ ul.lista > li {
         font-size: 16px;
     }
 } */
+
+.cajas{
+    display:flex;
+    flex-direction: column;
+    gap: 2px;
+}
