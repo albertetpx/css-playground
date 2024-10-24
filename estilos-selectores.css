@@ -1,13 +1,21 @@
-/* SELECTOR UNIVERSAL **************************/
-/* *{
-    font-style: italic;
+/* ESTRUCTURA DE REGLA CSS */
+/* selector{
+    propiedad1;
+    propiedad2;
 } */
+
+
+/* SELECTOR UNIVERSAL **************************/
+*{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* SELECTOR DE ETIQUETA ************************/
 /* h2 {
     font-size: 28px;
-    color: #444;
-    margin-bottom: 15px;
+    color: red;
+    margin-bottom: 45px;
 } */
 
 /* footer{
@@ -16,7 +24,7 @@
 
 /* SELECTOR DE CLASE ***************************/
 /* .intro {
-    font-weight: 300;
+    color: pink;
 } */
 
 /* SELECTOR DE ETIQUETA Y CLASE ****************/
@@ -28,7 +36,7 @@
 /* SELECTOR DE ID ******************************/
 /* #resaltado {
     font-weight: 700;
-    color: #2980b9;
+    background-color: #2980b9;
 } */
 
 /* SELECTOR DE ATRIBUTO ************************/
@@ -39,12 +47,27 @@
     border-radius: 4px;
 } */
 
+/* div[class]{
+    border: 5px brown dashed;
+} */
+
 /* SELECTOR DE ATRIBUTO Y VALOR *****************/
-/* p[data-info="dato-imprtante"] {
+/* p[data-info="dato-importante"] {
     background-color: #ff3bce;
     font-weight: 500;
     padding: 10px;
     border-radius: 4px;
+} */
+
+/* p[data-info*="dato"] {
+    background-color: greenyellow;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+} */
+
+/* a[href*="https"]{
+    color: gold;
 } */
 /* 
 p[data-info*="dato"] {
@@ -60,11 +83,19 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 } */
 
+/* #resaltado,.caja{
+    background-color: black;
+} */
+
 
 /* SELECTOR DE PSEUDOCLASES **********************/
 
 /* Pseudoclases de enlace */
 /* regla LVHA  */
+
+/* a{
+    color: black;
+} */
 
 /* a:visited{
     color: aqua;
@@ -73,6 +104,11 @@ a {
 /* a:hover {
     color: gold;
 } */
+/* 
+a:active {
+    font-size: 1.2em;
+} */
+
 
 /* Pseudoclases de estado */
 
@@ -97,7 +133,11 @@ a {
 /* checked, default, read-only, required, optional, valid, out-of-range*/
 
 /* Pseudoclases de índice y orden */
-/* .caja:first-child{
+/* .caja:first-child, .caja:last-child{
+    color: greenyellow;
+} */
+
+/* p:first-child{
     color: greenyellow;
 } */
 
@@ -106,6 +146,10 @@ a {
 } */
 
 /* .caja:first-of-type{
+    color:greenyellow;
+} */
+
+/* .cajas :first-of-type{
     color:greenyellow;
 } */
 
@@ -129,7 +173,7 @@ a {
     color:greenyellow;
 } */
 
-/* .caja:nth-of-type(2){
+/* .caja:nth-of-type(1){
     color:greenyellow;
 } */
 
@@ -142,9 +186,9 @@ a {
     font-size: 2em;
     color: #e74c3c;
     font-weight: bold;
-} */
+}
 
-/* li::marker{
+li::marker{
     color:red;
 } */
 
@@ -160,7 +204,7 @@ a {
 /* section.contenido p {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #555;
+    color: pink;
 } */
 
 /* Selector de descendientes directos (hijos)*/
@@ -186,9 +230,9 @@ a {
 } */
 
 /* Selector de hermanos subsiguientes */
-/* #item1 ~ li{
+P + *{
     background-color: #ff3bce;
-} */
+}
 
 
 /* ADELANTO: MEDIA QUERIES */

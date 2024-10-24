@@ -1,19 +1,19 @@
 /* 1. Treu el marge i el padding a tots els elements per defecte */
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* 2. Aplica al body la tipografia Arial, un tamany de font de 1em y el color #333 */
-{
+body{
     font-family: Arial, sans-serif;
     font-size: 1em;
     color: #333;
 }
 
 /* 3. Aplica a la classe main-header el color de fons #333, el color de text blanc, un padding de 20 px i alineació de text al centre */
-{
+.main-header{
     background-color: #333;
     color: white;
     padding: 20px;
@@ -21,7 +21,7 @@
 }
 
 /* 4. Aplica a l'element home el següent fons d'imatge (hero image), color de text blanc i alineat al centre, i padding de 100px amunt i 20px a sota */
-{
+#home{
     background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhldXxlbnwwfHx8fDE2Njg4NzIzOTI&ixlib=rb-1.2.1&q=80&w=100') no-repeat center center/cover;
     color: white;
     padding: 100px 20px;
@@ -29,7 +29,7 @@
 }
 
 /* 5. Aplica als botons de la classe cta el color de fons #ff6347, text blanco 1.2em, sense vora i amb cursor en forma de punter */
-{
+button.cta{
     background-color: #ff6347;
     color: white;
     border: none;
@@ -39,53 +39,76 @@
 }
 
 /* 6. Aplica als inputs amb placeholder un padding de 10px i una amplada del 100%; la vora ha de ser 1px solid de color #ccc*/
-{
+input[placeholder]{
     border: 1px solid #ccc;
     padding: 10px;
     width: 100%;
 }
 
 /* 7. Aplica als inputs de tipus email el color de vora  */
-{
+input[type="email"]{
+    border: solid 5px;
     border-color: #007BFF;
 }
 
+
 /* 8. Aplica als enllaçs que incloguin "https" en el seu href un color #ff6347 i un subratllat */
-{
+a[href*="https"]{
     color: #ff6347;
     text-decoration: underline;
 }
 
 /* 9. Aplica als h1 i h2 un marge inferior de 20px */
-{
+h1,
+h2{
     margin-bottom: 20px;
 }
 
 /* 10. Aplica als enllaços en color  #007BFF (sense subratllat) quan es passi el ratolí per sobre */
-{
+a:hover{
     color: #007BFF;
     text-decoration: none;
 }
 
 /* 11. Aplica als enllaços en color  #007BFF (sense subratllat) quan estiguin sent clicats */
-{
+a:active{
     color: #ff6347;
 }
 
 /* 12. Fes que quan els inputs rebin el focus tinguin un outline solid #007BFF de 2px  */
-{
-    outline: 2px solid #007BFF;
+input:focus{
+    outline: 2px solid gold;
 }
 
 /* 13. Fes que quan els botons estiguin deshabilitats, s'apliquin els següents estils */
-{
+/* button:disabled{
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+} */
+
+button[disabled]{
     background-color: #ccc;
     color: #666;
     cursor: not-allowed;
 }
 
 /* 14. Fes que el primer element de les llistes desordenades estigui marcat en negreta */
-{
+li:first-child{
+    /* font-weight: bold; */
+    font-size: 40px;
+}
+
+header ul {
+    background-color: white;
+}
+
+body section h2{
+    color: white;
+}
+
+div  span{
+    color: rgb(210, 8, 8);
     font-weight: bold;
 }
 

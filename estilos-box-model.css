@@ -1,9 +1,10 @@
-    .coloreado {
+.coloreado {
     background-color: red;
+    /* display: block; */
 }
 
-.con-tamano {
-    width: 420px;
+.con-tamano { /* Tamaño explícito */
+    width: 300px;
     height: 80px;
 }
 
@@ -13,7 +14,10 @@
 }
 
 .con-borde {
-    border: 20px black solid;
+    border: solid 20px black ;
+    /* border-width: 20px;
+    border-color: black;
+    border-style: solid; */
     font-size: 0.8em;
 }
 
@@ -87,3 +91,34 @@
     white-space: pre;
     content:"\A(El borde y el padding no se tienen en \A cuenta en el tamaño de la caja";
 }
+
+.posicionamiento{
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+}
+
+.posicionado{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: white;
+    /* display: inline-block; */
+}
+
+/* .posicionado:nth-child(1){
+    display: block;
+} */
+
+/* .posicionado:first-child{
+    position: relative;
+    top: 50px;
+    left: 20px;
+} */
+
+/* .posicionado:first-child{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */
