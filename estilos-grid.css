@@ -4,20 +4,32 @@
     border: 10px brown solid;
     margin-top: 20px;
     margin-left: 100px;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 20% 70% 10%;
+    grid-template-areas:
+    "header header header"
+    "nav    main   aside" 
+    "footer footer footer";
 }
 
 .item:nth-of-type(1){
     background-color: blue;
+    grid-area: header;
 }
 .item:nth-of-type(2){
     background-color: red;
+    grid-area: nav;
 }
 .item:nth-of-type(3){
     background-color: yellow;
+    grid-area: main;
 }
 .item:nth-of-type(4){
     background-color: green;
+    grid-area: aside;
 }
 .item:nth-of-type(5){
     background-color: pink;
+    grid-area: footer;
 }
