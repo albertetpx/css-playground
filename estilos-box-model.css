@@ -105,20 +105,34 @@
     margin: 10px;
     background-color: white;
     /* display: inline-block; */
+    position: static;
 }
 
-/* .posicionado:nth-child(1){
-    display: block;
-} */
-
-/* .posicionado:first-child{
-    position: relative;
-    top: 50px;
-    left: 20px;
-} */
+.posicionado:first-child{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
 
 /* .posicionado:first-child{
     position: absolute;
     bottom: 0px;
     right: 0px;
 } */
+
+.tooltip2{
+    /* display: none; */
+    visibility: hidden;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: pink;
+    width: 90%;
+    height: 90%;
+    z-index: 0;
+}
+
+.posicionamiento:hover .tooltip2{
+    /* display: block; */
+    visibility: visible;
+}

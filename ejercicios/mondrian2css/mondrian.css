@@ -15,7 +15,8 @@ body{
     aspect-ratio: 1;
     border: 10px brown solid;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 100px;
+    position: relative;
 }
 
 .cuadro div{
@@ -30,6 +31,7 @@ body{
 #fila2{
     width: 100%;
     height: 40%;
+    
 }
 
 #celda1{
@@ -37,6 +39,9 @@ body{
     height: 100%;
     background-color: red;
     border: 8px black solid;
+    position: relative;
+    top: 40px;
+    left: 40px;
 }
 
 #celda234{
@@ -115,6 +120,7 @@ body{
     height: 60%;
     background-color: blue;
     border: 8px black solid;
+    position: relative;
 }
 
 #celda10{
@@ -128,4 +134,52 @@ body{
     height: 20%;
     background-color: black;
     border: 8px black solid;
+}
+
+#firma{
+    position: absolute; 
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.cuadro .tooltip{
+    display: none;
+    position: absolute;
+    background-color: pink;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+    color: black;
+    font-size: 30px;
+    padding: 10%;
+    text-align: center;
+}
+
+.cuadro:hover .tooltip{
+    display: block;
+}
+
+.galeria{
+    width: 700px;
+    height: 700px;
+    border: 10px brown solid;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    gap: 3%;
+    padding: 5%;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.thumbnail{
+    width: 200px;
+    height: 200px;
 }

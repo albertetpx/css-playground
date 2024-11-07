@@ -1,0 +1,23 @@
+.contenedor{
+    width: 500px;
+    height: 500px;
+    border: 10px brown solid;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.item:nth-of-type(1){
+    background-color: blue;
+}
+.item:nth-of-type(2){
+    background-color: red;
+}
+.item:nth-of-type(3){
+    background-color: yellow;
+}
+.item:nth-of-type(4){
+    background-color: green;
+}
+.item:nth-of-type(5){
+    background-color: pink;
+}
